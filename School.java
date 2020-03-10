@@ -1,12 +1,12 @@
 public class School {
-    private String name;
+    private int name;
     private Section[] Section;
 
-    public String getName() {
+    public int getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(int name) {
         this.name = name;
     }
 
@@ -26,12 +26,12 @@ public class School {
         this.sectionCount = sectionCount;
     }
 
-    public String getGetName() {
+    public int getGetName() {
         return getName;
     }
 
-    public void setGetName(String getName) {
-        this.getName = getName;
+    public int setGetName(int getName) {
+        return getName;
     }
 
     public int getAddSection() {
@@ -51,7 +51,7 @@ public class School {
     }
 
     private int sectionCount;
-    public String getName;
+    public int getName;
 
     int addSection;
     Section[] getSections;
