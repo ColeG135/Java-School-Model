@@ -7,8 +7,8 @@ public class Teacher {
         Section = section;
     }
 
-    public String getSubject() {
-        return subject;
+    public void getSubject() {
+        int subject;
     }
 
     public int getSectionCount() {
@@ -44,10 +44,10 @@ public class Teacher {
     }
 
     private Section[] Section;
-    private String subject;
+    private int subject;
     private int sectionCount;
     public int getSubject;
-    public void setSubject(String n){
+    public void setSubject(int n){
     }
     public Section[] getSections;
     public int addSection;
