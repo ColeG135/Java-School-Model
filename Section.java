@@ -14,11 +14,11 @@ public class Section  {
       this.newStudent = newStudent;
    }
 
-   public String getName() {
+   public int getName() {
       return name;
    }
 
-   public void setName(String name) {
+   public void setName(int name) {
       this.name = name;
    }
 
@@ -46,20 +46,20 @@ public class Section  {
       this.getStudents = getStudents;
    }
 
-   public String getGetName() {
-      return getName;
+   public void getGetName() {
+      int getName;
    }
 
-   public void setGetName(String getName) {
+   public void setGetName(int getName) {
       this.getName = getName;
    }
 
-   private String name;
+   private int name;
    private int currentSize;
    public Teacher getTeacher;
    public void setTeacher(Teacher t){}
    public Student[] getStudents;
    public void addStudent(Student s){}
-   public String getName;
-   public void setname(String name){}
+   public int getName;
+   public void setname(int name){}
 }
