@@ -1,13 +1,13 @@
 public class Person {
-    private String name;
+    private int name;
     private int id;
-    public String getName;
+    public int getName;
 
-    public String getName() {
+    public int getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(int name) {
         this.name = name;
     }
 
@@ -15,11 +15,11 @@ public class Person {
         return id;
     }
 
-    public String getGetName() {
+    public int getGetName() {
         return getName;
     }
 
-    public void setGetName(String getName) {
+    public void setGetName(int getName) {
         this.getName = getName;
     }
 
@@ -31,7 +31,7 @@ public class Person {
         this.getId = getId;
     }
 
-    public void setname(String n){
+    public void setname(int n){
     }
     public int getId;
     public void setId(int id){
