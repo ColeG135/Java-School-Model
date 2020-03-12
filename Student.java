@@ -45,4 +45,7 @@ public class Student {
    public Section getSection;
    public void addSectio(Section s){
    }
+   public Student (int name , int grade) {
+      this.grade = grade;
+   }
 }
