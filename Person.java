@@ -34,6 +34,6 @@ public class Person {
     public void setname(int n){
     }
     public int getId;
-    public void setId(int id){
+    public void setId(int id) {
     }
 }
